@@ -16,7 +16,7 @@ El lenguaje <strong>HTML</strong> es tan sencillo que precticamente se puede ent
     <marquee <h1> <span style="color: blue"> DAVID MARTINEZ MEDINA</h1></marquee>
 </p>
 <h3>
-    este es bebe David,me tomaron esta foto a los 4 meses de nacido
+    este es bebe <strong>David</strong>,me tomaron esta foto a los 4 meses de nacido
 </h3>
 <img src="foto5.jpg" width="250" height="350"
 <p>
@@ -36,6 +36,7 @@ El lenguaje <strong>HTML</strong> es tan sencillo que precticamente se puede ent
     <li> Alicia Fernanda Tapia </li>
     <li> Ivanna Santos </li>
 </ol>
+<hr/>
 <h2> Ahora crearemos una tabla: </h2>
 
 <table border="3" style="width: 50%;">
@@ -88,10 +89,12 @@ Selecciona tu sexo
 
 Selecciona el fichero y adjuntalo:
 <input type="file" name="fichero_adjunto"/>
+<hr/>
 <h3>
      Aqui tenia 6 años y me tomaron esta foto al entrar al kinder
 </h3>
 <img src="foto1.jpg" width="250" height="350"/>
+<hr/>
 <h3>
     Aca tenia 15 años,no tango fotos de la secundaria ya que no me gustaba tomerme fotos,en la foto tenia como 6 meses haciendo parkour y ahora llevo 2 años practicandolo,
 </h3>
@@ -109,12 +112,13 @@ Selecciona el fichero y adjuntalo:
     <li> <a href="https://www.youtube.com/@IlabacaVideoBlog"> Illabacca</a></li>
     <li> <a href="https://www.instagram.com/_luisfaz_/"> Luis Faz</a></li>
 </ul>
+<hr/>
 <h3>
     esta ha sido la ultima foto que me he tomado,fue cuando cumpli 17 años,el de al lado es mi hermano Luis que tiene 28 años se acaba de casar hace un mes y va a se papa,fui a varios restaurantes y a un concierto de Nu Metal con mi papa y un amigo mio llamado Levy
 </h3>
 <img src="foto3.jpg" width="250" height="300"/>
 <h3>
-    algunas de las bandas que tocaron interpretaciones 
+    <span style ="color: blue"> Algunas de las bandas que tocaron interpretaciones</span>  
 </h3>
 <ul>
     <li> Angel Engine</li>
@@ -123,12 +127,19 @@ Selecciona el fichero y adjuntalo:
     <li> Rammstein</li>
     <li> Nirvana</li>
 </ul>
-
+<h3>
+    Mi papa me enseño a trabajar en mi mismo y mejorar constantemente y lo aprecio mucho a mi viejo
+</h3>
+</br>
+<h3>
+    Celebramos mucho el dia de mi cumpleaños que es el 2 de septiembre,lo ulrimo que hicimos es ir a un balneario que me diverti bastante ademas de que el sigiente domingo planeamos ir al cristo roto con nuestras motocicletas
+</h3>
 <h4>
     siganme en github que tengo github
 </h4>
 <a href="https://github.com/wqidnc"> Seguir</a>
 </p>
+<hr/>
 <br/>
 <video src="videoplayback.mp4" controls width="650">
 </video>
@@ -143,6 +154,41 @@ Selecciona el fichero y adjuntalo:
     <li>Escucho musica o alguna pelicula antes de dormir</li>
     <li>Me preparo para mañana guardando libretas y cosas que necesite</li>
 </ol>
+<h3>
+    Los Videojuegos que mas me gustan
+</h3>
+<table border="5" style="width: 20%;">
+    <tr>
+        <th>Left 4 Dead 2</th>
+    </tr>
+    <tr>
+        <th>Doom Eternal</th>
+    </tr>
+    <tr>
+        <th>Dead Space</th>
+    </tr>
+    <tr>
+        <th>Undertale</th>
+    </tr>
+    <tr>
+        <th>Manhunt 2</th>
+    </tr>
+    <tr>
+        <th>Toda la saga de Assassins creed</th>
+    </tr>
+    <tr>
+        <th>God of War</th>
+    </tr>
+    <tr>
+        <th>Minecraft</th>
+    </tr>
+    <tr>
+        <th>The Farmer Got Replaced</th>
+    </tr>
+    <tr>
+        <th>Monaco</th>
+    </tr>
+</table>
 <h3>
     Siempre me ha gustado la programacion desde que tengo conciencia,tambien la electronica y mecatronica pero ahora estoy solo en programacion, ya he hecho varios proyectos personales y de tareas y me siento comodo en esta especialidad,quisiera dedicarme a esto a menos que la ia remplace a todo un equipo de produccion
 </h3>
@@ -193,33 +239,58 @@ Selecciona el fichero y adjuntalo:
         <th>los README.md de github</th>
     </tr>
 </table>
+</br>
+<video src="memerengue.mp4" controls width="200">
+</video>
+</br>
+
+<h4>
+    Todo empezo imprimiendo "Hola Mundo!" en psint
+</h4>
+<hr/>
 <h2>
     Formulario para inscripcion al cetis 155
 </h2>
 <img src="C155.png" width="100" height="100"/>
 </br>
-Escribe tu nombre
+Escribe tu <strong>nombre</strong>:
 <input type="text" name="nombre-alumno" value=""/>
 </br>
-Escribe tu edad
+Escribe tu <strong>edad</strong>:
 <input type="number" name="Edad" min="5" max="100" value=""/> <!-- Esto lo investigue,no puedo dejar un bug abierto --> 
 </br>
-Selecciona tu especialidad (Solo una)
+Selecciona tu <strong>especialidad</strong> (Solo una):
 <input type="radio" name="especialidad" value="Programacion"/> Programacion
 <input type="radio" name="especialidad" value="Automotriz"/> Automotriz                 <!-- aca lo que se va a seleciona debe de tener el mismo name en este caso especialdad -->   
 <input type="radio" name="especialidad" value="Recursos Humanos"/> Recursos Humanos
 <input type="radio" name="especialidad" value="Tecnico en computadoras"/> Tecnico en computadoras
 </br>
 
-Selecciona tu genero
+Selecciona tu <strong>genero</strong>:
 <input type="radio" name="Genero" value="hombre"/> Hombre
 <input type="radio" name="Genero" value="mujer"/> Mujer
 <br/>
-Elige tu turno de estudio
+Elige tu <strong>turno</strong> de estudio:
 <input type="radio" name="Turno" value="Matutino" /> Matutino
 <input type="radio" name="Turno" value="Vespertino" /> Vespertino
 </br>
-
+Señala tu nivel de <strong>estudio</strong> 
+<input type="checkbox" name="Nivel" value="KinderGarten"/> KinderGarten
+<input type="checkbox" name="Nivel" value="Primaria"/> Primaria
+<input type="checkbox" name="Nivel" value="Secundaria"/> Secundaria
+</br>
+Si ya habias estado en un bachillerato antes ingresa tu guardando
+<input type="number" name="grado" value=""
+</br>
+Ingresa donde nos <strong>conociste</strong>:
+<input type="checkbox" name="lugar" value="redes sociales"/> Redes sociales
+<input type="checkbox" name="lugar" value="familiares"/> Familiares
+<input type="checkbox" name="lugar" value="amigos"/> Amigos
+<input type="checkbox" name="lugar" value="internet"/> Internet
+<input type="checkbox" name="lugar" value="otro"/> Otro medio
+/// Si fue por otro medio escribelo aca
+<input type="text" name="descripcion" value=""/>
+</br>
 <input type="submit" name="btnEnviar" value="Enviar solicitud"  />
 <btr/>
 
